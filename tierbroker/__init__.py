@@ -7,7 +7,7 @@ handles fair scheduling, backoff, quota tracking, and failover so you can
 spread a workload across many accounts/services without hammering any one.
 
 Open-sourced by WCN Development Co, LLC. MIT licensed.
-https://github.com/gphoenix172-droid/tierbroker
+https://github.com/WCN-DEV-CO/tierbroker
 """
 from .broker import Broker, Provider, QuotaExceeded, NoProviderAvailable
 

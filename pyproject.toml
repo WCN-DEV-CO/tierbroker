@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tierbroker"
+version = "0.1.0"
+description = "Fair job scheduling + failover across many providers with per-provider rate limits and quotas. Bring your own providers. Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "WCN Development Co, LLC" }]
+keywords = ["rate-limit", "load-balancer", "failover", "scheduler", "quota", "broker", "api"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/gphoenix172-droid/tierbroker"
